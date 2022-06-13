@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <script
+      src="https://kit.fontawesome.com/529c86d399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body style="background-color: black">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="container-fluid d-flex" style="background-color: white">
+      <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <div class="d-flex container-fluid">
+          <div class="d-flex flex-fill justify-content-between">
+            <a class="navbar-brand" href="#">Online Library </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#NavDropdown"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse w-100" id="NavDropdown">
+            <ul class="nav navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+            <div class="ms-auto">
+              <form class="d-inline-flex">
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Enter Book Title, Author, etc"
+                  class="search form-control"
+                  size="100"
+                />
+                <select class="form-select" id="filter">
+                  <option value="" selected disabled>Select</option>
+                  <option value="">Author</option>
+                  <option value="">Date</option>
+                  <option value="">Type</option>
+                </select>
+                <button type="submit" class="btn btn-sm btn btn-secondary">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="table table-responsive container-lg">
+      <div class="row m-2">
+        <table class="table table-striped table-dark table-hover">
+          <tr>
+            <th class="w-25 text-center">Book Cover</th>
+            <th class="text-center">Book Title</th>
+            <th class="text-center">Author</th>
+            <th class="text-center">Date Published</th>
+            <th class="text-center">Action</th>
+          </tr>
+          <tr>
+            <td class="">
+              <div class="">
+                <img src="image1.jpg" class="img-fluid img-thumbnail" />
+              </div>
+            </td>
+            <td class="">To kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>July 11, 1960</td>
+            <td>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to cart
+              </button>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to Wishlist
+              </button>
+              <button type="submit" class="btn btn-warning w-100">
+                <a href="form.html" style="text-decoration: none"> Buy now</a>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="">
+                <img src="image2.jpg" class="img-fluid img-thumbnail" />
+              </div>
+            </td>
+            <td>To kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>July 11, 1960</td>
+            <td>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to cart
+              </button>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to Wishlist
+              </button>
+              <button type="submit" class="btn btn-warning w-100">
+                <a href="form.html" style="text-decoration: none"> Buy now</a>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="">
+                <img src="image3.jpg" class="img-fluid img-thumbnail" />
+              </div>
+            </td>
+            <td>To kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>July 11, 1960</td>
+            <td>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to cart
+              </button>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to Wishlist
+              </button>
+              <button type="submit" class="btn btn-warning w-100">
+                <a href="form.html" style="text-decoration: none"> Buy now</a>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="">
+                <img src="image4.jpg" class="img-fluid img-thumbnail" />
+              </div>
+            </td>
+            <td>To kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>July 11, 1960</td>
+            <td>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to cart
+              </button>
+              <button type="submit" class="btn btn-primary w-100">
+                Add to Wishlist
+              </button>
+              <button type="submit" class="btn btn-warning w-100">
+                <a href="form.html" style="text-decoration: none"> Buy now</a>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td>
+              <form action="form.html">
+                <button type="submit" class="btn btn-warning w-100">
+                  Proceed to checkout
+                </button>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
